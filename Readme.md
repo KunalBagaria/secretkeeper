@@ -2,6 +2,11 @@
 
 A simple and secure command-line tool to protect your text by encrypting and decrypting it using the robust AES-256 algorithm. Built with Rust and GPT4.
 
+### Installation
+```
+cargo install secretkeeper
+```
+
 ### Usage
 
 ```
