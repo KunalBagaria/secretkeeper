@@ -2,6 +2,14 @@
 name = "secretkeeper"
 version = "0.1.0"
 edition = "2021"
+description = "A simple and secure command-line tool to protect your text by encrypting and decrypting it using the robust AES-256 algorithm."
+license = "MIT"
+documentation = "https://docs.rs/secretkeeper"
+repository = "https://github.com/kunalbagaria/secretkeeper"
+
+[[bin]]
+name = "sk"
+path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
